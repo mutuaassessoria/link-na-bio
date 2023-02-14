@@ -15,7 +15,8 @@ export const Subscribe = () => {
   const handleSubmit = (evt: any) => {
     evt.preventDefault();
     var xhr = new XMLHttpRequest();
-    var url = `https://api.hsforms.com/submissions/v3/integration/submit/${PORTALID}/${FORMID}`;
+    var url =
+      "https://api.hsforms.com/submissions/v3/integration/submit/22185316/42e3d2d0-283b-4c14-9e67-40589ab76aeb";
     var data = {
       fields: [
         {
