@@ -65,6 +65,7 @@ export const Subscribe = () => {
       </p>
 
       <S.Subscribe_Form onSubmit={handleSubmit}>
+        <ToastContainer />
         <S.Subscribe_Form_Input_Wrapper>
           <label htmlFor="name">Nome</label>
           <input
